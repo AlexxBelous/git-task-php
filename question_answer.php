@@ -1,10 +1,16 @@
 <!-- 
-Отобразите в консоль два случайных элемента с массива.
+Итерируйте двумерный массив с помощь цикла foreach.
  -->
 
 <?php
 
-$input = array("Neo", "Morpheus", "Trinity", "Cypher", "Tank");
+$allThings = [
+    'cars' => ['Volga', 'Niva', 'Lada'],
+    'names' => ['Alex', 'Ben', 'Ron', 'Alena'],
+    'mobile phones' => ['Sumsung', 'Nokia', 'Simens', 'Iphone'],
+];
+
+
 
 ?>
 
@@ -65,8 +71,11 @@ $input = array("Neo", "Morpheus", "Trinity", "Cypher", "Tank");
 
 <?php
 
-// $rand_keys = array_rand($input, 2);
-// echo $input[$rand_keys[0]] . "\n";
-// echo $input[$rand_keys[1]];
+// foreach ($allThings as $key => $array) {
+//     echo "$key: \n";
+//     foreach ($array as $value) {
+//         echo "$value \n";
+//     }
+// }
 
 ?>

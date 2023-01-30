@@ -1,6 +1,20 @@
-
 <?php
 
-$input = array("Neo", "Morpheus", "Trinity", "Cypher", "Tank");
+$allThings = [
+    'cars' => ['Volga', 'Niva', 'Lada'],
+    'names' => ['Alex', 'Ben', 'Ron', 'Alena'],
+    'mobile phones' => ['Sumsung', 'Nokia', 'Simens', 'Iphone'],
+    ];
+
+    // Код введите ниже
+
+    foreach ($allThings as $key => $array) {
+        echo "$key: \n";
+        foreach ($array as $value) {
+            echo "$value \n";
+        }
+    }
+
+    
 
 ?>
