@@ -8,12 +8,7 @@ $allThings = [
 
     // Код введите ниже
 
-    foreach ($allThings as $key => $array) {
-        echo "$key: \n";
-        foreach ($array as $value) {
-            echo "$value \n";
-        }
-    }
+
 
     
 
