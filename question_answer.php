@@ -1,10 +1,13 @@
 <!-- 
-Отобразите в консоль два случайных элемента с массива.
+
+Проверь, имеет ли какое-либо значение переменная $name.
+Результат в виде текстового сообщение необходимо вывести на экран.
+
  -->
 
 <?php
 
-$input = array("Neo", "Morpheus", "Trinity", "Cypher", "Tank");
+$name = "Alex";
 
 ?>
 
@@ -65,8 +68,16 @@ $input = array("Neo", "Morpheus", "Trinity", "Cypher", "Tank");
 
 <?php
 
-// $rand_keys = array_rand($input, 2);
-// echo $input[$rand_keys[0]] . "\n";
-// echo $input[$rand_keys[1]];
+
+
+// $name = "Alex";
+
+// if(isset($name))
+// echo "Name exist";
+// else
+// echo "Name do not exist";
+
+
+
 
 ?>

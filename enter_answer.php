@@ -1,6 +1,11 @@
-
 <?php
 
-$input = array("Neo", "Morpheus", "Trinity", "Cypher", "Tank");
+$name = "Alex";
+
+
+// Код ниже
+
+
+
 
 ?>
