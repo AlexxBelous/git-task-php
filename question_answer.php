@@ -1,13 +1,12 @@
 <!-- 
 
-Проверь, имеет ли какое-либо значение переменная $name.
-Результат в виде текстового сообщение необходимо вывести на экран.
+Проверь пустая ли строка $str. По результату выведи сообщение.
 
  -->
 
 <?php
 
-$name = "Alex";
+$str = "";
 
 ?>
 
@@ -70,12 +69,13 @@ $name = "Alex";
 
 
 
-// $name = "Alex";
+// $str = "";
 
-// if(isset($name))
-// echo "Name exist";
+// if(empty($str))
+// echo "string do not exist";
 // else
-// echo "Name do not exist";
+// echo "string exist";
+
 
 
 
