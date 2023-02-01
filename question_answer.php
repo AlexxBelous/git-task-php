@@ -4,10 +4,10 @@
 
 <?php
 
-$allThings = [
-    'cars' => ['Volga', 'Niva', 'Lada'],
-    'names' => ['Alex', 'Ben', 'Ron', 'Alena'],
-    'mobile phones' => ['Sumsung', 'Nokia', 'Simens', 'Iphone'],
+$all_things = [
+    'cars' => ['Volga', 'Audi', 'BMW', 'Ford'],
+    'names' => ['Alex', 'Ben', 'Ron', 'Son'],
+    'mobile phones' => ['Samsung', 'Nokia', 'Siemens', 'Iphone'],
 ];
 
 
