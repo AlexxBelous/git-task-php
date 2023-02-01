@@ -1,12 +1,12 @@
 <!-- 
 
-Напиши функцию которая будет возвращать суму параметров (5 + '33').
+Выведи любую строку с помощью Heredoc.
 
  -->
 
 <?php
 
-$str = "";
+
 
 ?>
 
@@ -68,12 +68,12 @@ $str = "";
 <?php
 
 
-// function sum(int $x, int $r ){
-//   return $x + $r;
-//   }
-  
-//   echo sum(5, '33');
-  
+// $text = <<<my_text
+// Hello, what is your name?
+
+// my_text;
+
+// echo $text;
 
 
 ?>
