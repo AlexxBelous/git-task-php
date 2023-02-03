@@ -1,6 +1,11 @@
 <!-- 
 
-С помощью функции, введите в предложение Имя и любимый Цвет.
+Необходимо проверить есть ли слово 'are' в предложении.
+В результате выведите предложение с информацией.
+
+-This word in sentence
+
+-This word not found in sentence
 
  -->
 
@@ -10,7 +15,7 @@
 
 
 
-echo "Hi, my name is ... and my favorite color is ...";
+
 
 
 
@@ -62,14 +67,12 @@ echo "Hi, my name is ... and my favorite color is ...";
 
 <?php
 
-// function greet($name, $color) {
-//   echo "Hi, my name is $name and my favorite color $color";
+// if (strpos($a, 'are') !== false) {
+//   echo 'This word in sentence';
+// } else {
+//   echo "This word not found in sentence";
 // }
 
-// greet('Alex', 'green');
 
 
 ?>
-
-
-
