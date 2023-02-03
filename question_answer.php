@@ -1,6 +1,6 @@
 <!-- 
 
-Выведете в консоль какой тип данных содержит переменная $name
+С помощью функции, введите в предложение Имя и любимый Цвет.
 
  -->
 
@@ -8,10 +8,9 @@
 
 <?php
 
-$name = 'Alex';
 
 
-
+echo "Hi, my name is ... and my favorite color is ...";
 
 
 
@@ -63,7 +62,11 @@ $name = 'Alex';
 
 <?php
 
-// echo gettype($name);
+// function greet($name, $color) {
+//   echo "Hi, my name is $name and my favorite color $color";
+// }
+
+// greet('Alex', 'green');
 
 
 ?>
