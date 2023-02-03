@@ -1,10 +1,8 @@
 <!-- 
 
-Выведете в терминал текстовое сообщение - является ли число в переменной $number
-четными или нечетными числами. 
+В существующий массив, который содержит переменная $languages, добавьте еще два языка. 
 
-- Odd - четное число.
-- Even - нечетное число.
+                                                  C# и C++
 
  -->
 
@@ -12,15 +10,10 @@
 
 <?php
 
-$number = 21;
 
 
 
-
-
-
-
-
+$languages = array("PHP", "Java", "Python", "JS", "Go");
 
 
 
@@ -65,20 +58,21 @@ $number = 21;
 
 
 
+
+
+
+
+
+
 <?php
 
 
 
+// $languages = array("PHP", "Java", "Python", "JS", "Go");
 
-
-// $number = 21;
-
-// $f = (float)($number/2) - (int)($number/2);
-// if($f) {
-// echo "Odd number";
-// } else {
-// echo "Even number";
-// }
+// print_r($languages);
+// array_push($languages, "C#", "C++");
+// print_r($languages);
 
 
 
