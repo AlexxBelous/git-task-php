@@ -1,6 +1,6 @@
 <!-- 
 
-Необходимо итерировать массив с помощью foreach и вывести в консоль пару ключ : значение.
+Выведете в консоль какой тип данных содержит переменная $name
 
  -->
 
@@ -8,7 +8,7 @@
 
 <?php
 
-$arr = ['auto' => 'BMW', 'name' => 'Alex', 'mob' => 'Samsung'];
+$name = 'Alex';
 
 
 
@@ -63,10 +63,7 @@ $arr = ['auto' => 'BMW', 'name' => 'Alex', 'mob' => 'Samsung'];
 
 <?php
 
-// foreach($arr as $key => $value) {
-//   echo "$key: $value \n";
-//   }
-
+// echo gettype($name);
 
 
 ?>
