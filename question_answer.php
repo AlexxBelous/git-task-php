@@ -1,12 +1,12 @@
 <!-- 
 
-Необходимо проверить есть ли слово 'are' в предложении.
-В результате выведите предложение с информацией.
+С помощью тернарного выражение определите какая переменная содержит большее число.
+Выведете сообщение с информацией в терминал.
 
--This word in sentence
 
--This word not found in sentence
+-"num1 is less than num2"
 
+-"num1 is greater than the num2"
  -->
 
 
@@ -14,7 +14,8 @@
 <?php
 
 
-
+$num1 = 4;
+$num2 = 11;
 
 
 
@@ -67,11 +68,10 @@
 
 <?php
 
-// if (strpos($a, 'are') !== false) {
-//   echo 'This word in sentence';
-// } else {
-//   echo "This word not found in sentence";
-// }
+// $num1 = 4;
+// $num2 = 11;
+// $res = $num1 < $num2 ? "num1 is less than num2" : "num1 is greater than the num2";
+// echo $res
 
 
 
