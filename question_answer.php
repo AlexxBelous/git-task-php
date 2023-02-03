@@ -1,10 +1,8 @@
 <!-- 
 
-С помощью if проверьте хранит ли переменная $num четное или нечетное значения. Результат выведите в 
-терминал.
-
-- even - равно.
-- not even - не равно
+Необходимо перебрать массив в переменной $values и найти значение 'five'. Вывести в терминал, 
+какие значение были перебраны, а так же сообщить, что заданное значение было найдено и программа 
+останавливает свою работу.
 
  -->
 
@@ -15,7 +13,7 @@
 
 
 
-$number = 18;
+$values = ['one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine', 'ten'];
 
 
 
@@ -70,20 +68,16 @@ $number = 18;
 
 <?php
 
+// $values = ['one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine', 'ten'];
 
-
-// if($number % 2) echo "number not even";
-// else echo "number even";
-
-
-
-
+// foreach ($values as $value) {
+//   if ($value === 'five') {
+//     echo "Number $value founded. Stop program. \n";
+//     break;
+//   } else {
+//     echo "Passed $value \n";
+//   }
+// }
 
 
 ?>
-
-
-
-
-
-
