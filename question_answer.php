@@ -1,8 +1,10 @@
 <!-- 
 
-В существующий массив, который содержит переменная $languages, добавьте еще два языка. 
+С помощью if проверьте хранит ли переменная $num четное или нечетное значения. Результат выведите в 
+терминал.
 
-                                                  C# и C++
+- even - равно.
+- not even - не равно
 
  -->
 
@@ -13,7 +15,9 @@
 
 
 
-$languages = array("PHP", "Java", "Python", "JS", "Go");
+$number = 18;
+
+
 
 
 
@@ -68,11 +72,9 @@ $languages = array("PHP", "Java", "Python", "JS", "Go");
 
 
 
-// $languages = array("PHP", "Java", "Python", "JS", "Go");
+// if($number % 2) echo "number not even";
+// else echo "number even";
 
-// print_r($languages);
-// array_push($languages, "C#", "C++");
-// print_r($languages);
 
 
 
