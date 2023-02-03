@@ -73,9 +73,10 @@ $my_var = 4.9;
 
 
 // $my_var = 4.9;
-// $number = (int)$my_var;
-// echo $number;
 
 
+// $num = ((int)$my_var);
+
+// echo $num;
 
 ?>
