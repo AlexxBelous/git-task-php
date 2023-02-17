@@ -1,37 +1,15 @@
 <!-- 
 
-Найдите язык, указанный в переменной с помощью оператора switch;
+Создайте текстовый файл test.txt с текстом в этом каталоге.
+Напиши функцию, которая будет присваивать содержимое файла переменной и выводить
+содержимое на экран.
 
  -->
 
 
 
 
- <?php
-
-
-$language = 'c#';
-switch ($language) {
-  case 'php':
-?>
-    <h1>Язык PHP</h1>
-  <?php break;
-  case 'js':
-  ?>
-    <h1>Язык JavaScript</h1>
-  <?php
-    break;
-  case 'c#':
-  ?>
-    <h1>Язык C#</h1>
-  <?php
-    break;
-  default:
-  ?>
-    <h1>It's not a known language</h1>
-<?php
-}
-?>
+ 
 
 
 
@@ -81,29 +59,11 @@ switch ($language) {
 
 
 
-<!-- 
+
 <?php
 
-$language = 'c#';
-switch ($language) {
-  case 'php':
-?>
-    <h1>Язык PHP</h1>
-  <?php break;
-  case 'js':
-  ?>
-    <h1>Язык JavaScript</h1>
-  <?php
-    break;
-  case 'c#':
-  ?>
-    <h1>Язык C#</h1>
-  <?php
-    break;
-  default:
-  ?>
-    <h1>It's not a known language</h1>
-<?php
-}
+// $text_document = file_get_contents('test.txt');
+// echo $text_document;
 
-?> -->
+
+?> 
