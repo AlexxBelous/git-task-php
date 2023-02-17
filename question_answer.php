@@ -1,30 +1,36 @@
 <!-- 
 
-Выведете в терминал текстовое сообщение - является ли число в переменной $number
-четными или нечетными числами. Конструкция должна превращать все не целые числа, в целые.
-
-- Odd - Нечетное число.
-- Even - Четное число.
+Найдите язык, указанный в переменной с помощью оператора switch;
 
  -->
 
 
 
+
+ <?php
+
+
+$language = 'c#';
+switch ($language) {
+  case 'php':
+?>
+    <h1>Язык PHP</h1>
+  <?php break;
+  case 'js':
+  ?>
+    <h1>Язык JavaScript</h1>
+  <?php
+    break;
+  case 'c#':
+  ?>
+    <h1>Язык C#</h1>
+  <?php
+    break;
+  default:
+  ?>
+    <h1>It's not a known language</h1>
 <?php
-
-$number = 21;
-
-
-
-
-
-
-
-
-
-
-
-
+}
 ?>
 
 
@@ -65,29 +71,39 @@ $number = 21;
 
 
 
+
+
+
+
+
+
+
+
+
+
+<!-- 
 <?php
 
-
-
-
-
-// $number = 21;
-
-// $f = (float)($number/2) - (int)($number/2);
-// if($f) {
-// echo "Odd number";
-// } else {
-// echo "Even number";
-// }
-
-
-
-
-
+$language = 'c#';
+switch ($language) {
+  case 'php':
 ?>
+    <h1>Язык PHP</h1>
+  <?php break;
+  case 'js':
+  ?>
+    <h1>Язык JavaScript</h1>
+  <?php
+    break;
+  case 'c#':
+  ?>
+    <h1>Язык C#</h1>
+  <?php
+    break;
+  default:
+  ?>
+    <h1>It's not a known language</h1>
+<?php
+}
 
-
-
-
-
-
+?> -->
